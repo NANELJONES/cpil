@@ -29,7 +29,7 @@ const WhatsAppButton = () => {
       <FaWhatsapp className="w-7 h-7 text-white" />
       <div className="hidden md:flex flex-col text-left pr-1">
         <span className="text-[10px] uppercase font-bold tracking-wider opacity-90 leading-tight">Chat with us</span>
-        <span className="text-xs font-semibold leading-tight">+233 59 802 5207</span>
+        <span className="text-xs font-semibold leading-tight">+233 55 256 6858</span>
       </div>
     </motion.a>
   )

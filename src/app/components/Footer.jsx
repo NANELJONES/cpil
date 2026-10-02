@@ -10,8 +10,8 @@ const Footer = () => {
   const currentYear = new Date().getFullYear()
   
   const contactInfo = {
-    phone: '+233 59 802 5207',
-    whatsapp: '+233 59 802 5207',
+    phone: '+233 55 256 6858',
+    whatsapp: '+233 55 256 6858',
   }
 
   const navItems = [
