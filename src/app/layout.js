@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
 import SmoothScroll from "./components/SmoothScroll";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,6 +41,7 @@ export default function RootLayout({ children }) {
           <Footer />
           <WhatsAppButton />
         </SmoothScroll>
+        <Analytics />
       </body>
     </html>
   );
